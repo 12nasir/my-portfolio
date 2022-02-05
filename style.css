@@ -57,3 +57,40 @@ h1{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
+.details{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width-1{
+    width: 60%;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid coral;
+    
+    border-radius: 5px;
+
+}
+.half-width-2{
+    width: 60%;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 44;
+    border-radius: 5px;
+}
+h2{
+    color: orange;
+}
+h4{
+    color: crimson;
+}
+footer p{
+    text-align: center;
+}
